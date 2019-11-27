@@ -1,0 +1,21 @@
+/*
+    Nuestro CSS para definir la plantilla
+*/
+table img{
+    height: 100px;
+    width: 100px;
+}
+input[type="text"]:valid:focus, input[type="date"]:valid:focus, input[type="url"]:valid:focus{
+    color: #1cc88a;
+    background-color: #fff;
+    border-color: #1cc88a;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(112, 223, 78, 0.25);
+}
+input[type="text"]:invalid, input[type="date"]:invalid, input[type="url"]:invalid{
+    color: #e74a3b;
+    background-color: #fff;
+    border-color: #e74a3b;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(223, 88, 78, 0.25);
+}
